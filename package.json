@@ -1,0 +1,33 @@
+{
+  "name": "native-app",
+  "version": "0.0.1",
+  "description": "Node tool for building native apps on OSX ",
+  "main": "lib/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/node-native-app"
+  },
+  "scripts": {
+    "demo": "node demo/demo.js"
+  },
+  "keywords": [
+    "osx",
+    "tray",
+    "native",
+    "app",
+    "application",
+    "mac"
+  ],
+  "author": "@brandonhorst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/node-native-app/issues"
+  },
+  "engines" : {
+    "node" : ">=0.8.0 <0.11"
+  },
+  "homepage": "https://github.com/brandonhorst/node-native-app",
+  "dependencies": {
+    "NodObjC": "^1.0.0"
+  }
+}
